@@ -240,13 +240,12 @@ pub fn parse_lin(lin_str: &str) -> Result<LinData> {
                     i += 1;
                 }
             }
-            "mc" => {
+            "mc"
                 // Make claim
-                if i + 1 < tokens.len() {
+                if i + 1 < tokens.len() => {
                     claim = tokens[i + 1].parse().ok();
                     i += 1;
                 }
-            }
             // Ignore other tokens (st, rh, etc.)
             _ => {}
         }
