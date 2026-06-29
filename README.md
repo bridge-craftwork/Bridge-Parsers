@@ -14,13 +14,13 @@ A Rust library and CLI for reading and writing bridge file formats.
 ## Installation
 
 ```bash
-cargo install --git https://github.com/Rick-Wilson/Bridge-Parsers
+cargo install --git https://github.com/bridge-craftwork/Bridge-Parsers
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/Rick-Wilson/Bridge-Parsers
+git clone https://github.com/bridge-craftwork/Bridge-Parsers
 cd Bridge-Parsers
 cargo build --release
 ```
@@ -106,9 +106,9 @@ write_boards_to_xlsx(&boards, &PathBuf::from("output.xlsx"))?;
 
 ## Related Projects
 
-- **[EDGAR-Defense-Toolkit](https://github.com/Rick-Wilson/EDGAR-Defense-Toolkit)**: Double-dummy analysis tools for detecting suspicious play patterns
-- **[bridge-types](https://github.com/Rick-Wilson/bridge-types)**: Core bridge data types (Board, Deal, Card, etc.)
-- **[bridge-solver](https://github.com/Rick-Wilson/bridge-solver)**: Double-dummy solver engine
+- **[EDGAR-Defense-Toolkit](https://github.com/bridge-craftwork/EDGAR-Defense-Toolkit)**: Double-dummy analysis tools for detecting suspicious play patterns
+- **[bridge-types](https://github.com/bridge-craftwork/bridge-types)**: Core bridge data types (Board, Deal, Card, etc.)
+- **[bridge-solver](https://github.com/bridge-craftwork/bridge-solver)**: Double-dummy solver engine
 
 ## File Format References
 
