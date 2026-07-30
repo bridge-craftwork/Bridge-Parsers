@@ -141,7 +141,7 @@ dependencies = [
 [[package]]
 name = "bridge-types"
 version = "0.1.0"
-source = "git+https://github.com/bridge-craftwork/bridge-types#bc8c5a171eef03f5cee846cdf226ac34a2008206"
+source = "git+https://github.com/bridge-craftwork/bridge-types#3b26da0c6b2e1f084b0e0b55796f3f19d02947fd"
 
 [[package]]
 name = "bumpalo"
