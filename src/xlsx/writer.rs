@@ -105,7 +105,8 @@ fn write_hand_records_sheet(sheet: &mut Worksheet, boards: &[Board]) -> Result<(
 
         // Double Dummy Tricks
         if let Some(ref dd) = board.double_dummy_tricks {
-            sheet.write_string_with_format(row, 11, dd, &center_format)?;
+            let dd_value = bridge_encodings::pbn::dd_table_to_pbn(dd);
+            sheet.write_string_with_format(row, 11, &dd_value, &center_format)?;
         }
 
         // Optimum Score
